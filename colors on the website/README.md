@@ -1,80 +1,48 @@
-# Color Studies in HTML and CSS
+#  Color Studies in HTML & CSS
 
-This project was developed as part of my initial studies in **HTML5 and CSS3**, focusing on understanding different ways to apply colors in web development.
+This project was developed as part of my studies in **HTML5 and CSS3**, evolving from basic color experiments into a simple styled webpage.
 
-## Objective
+## Overview
 
-To explore and practice the main methods of defining colors in CSS, understanding their differences and use cases.
+The main goal of this project was to understand how colors work in CSS and how they can be applied in real layouts.
 
----
+In addition to color studies, this version includes a basic page structure with headings, text sections, and visual styling using an external CSS file.
 
-## What was practiced
+## Features
 
-In this exercise, different approaches to applying colors were used:
+- Use of different color formats:
+  - Named colors
+  - Hexadecimal
+  - RGB
+  - HSL
+- Structured HTML layout using semantic tags (`main`, `h1`, `h2`, `p`)
+- External CSS file for styling
+- Simple and clean UI design
+- Typography and spacing improvements
+- Centered content with card-style layout
 
-### 🔹 1. Color Name
+## Preview
 
-Using predefined CSS color names.
+![Project Preview](./preview.png)
 
-```css
-background-color: blue;
-color: white;
-```
+>  Tip: Save your site screenshot as `preview.png` inside your project folder.
 
----
+## What I Learned
 
-### 🔹 2. Hexadecimal
-
-Representing colors using hexadecimal values.
-
-```css
-background-color: #00f;
-color: #ffffff;
-```
-
----
-
-### 🔹 3. RGB (Red, Green, Blue)
-
-Defining colors through combinations of red, green, and blue.
-
-```css
-background-color: rgb(0, 0, 255);
-color: rgb(255, 255, 255);
-```
-
----
-
-### 🔹 4. HSL (Hue, Saturation, Lightness)
-
-A color system based on hue, saturation, and lightness.
-
-```css
-background-color: hsl(240, 100%, 50%);
-color: hsl(0, 0%, 100%);
-```
-
----
-
-## Key Learnings
-
-* Differences between CSS color formats
-* How different models can represent the same color
-* Practical application of inline styles in HTML
-* Basic code organization for visual testing
-
----
+- Differences between color formats in CSS
+- How to apply styles using an external stylesheet
+- Basic layout structuring with HTML
+- Improving visual hierarchy with headings and spacing
+- Creating a simple and clean design
 
 ## Next Steps
 
-* Move styles to an external CSS file
-* Work with CSS variables for colors
-* Create reusable color palettes
-* Apply colors in more complex layouts
-
----
+- Make the layout responsive
+- Explore Flexbox and Grid
+- Use CSS variables for color management
+- Improve UI/UX design
+- Add interactivity with JavaScript
 
 ## Author
 
 Developed by **Manuella Fernandes** as part of her web development learning journey.
-
